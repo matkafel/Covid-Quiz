@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e3299856d69acac5652a27af6727191a",
+    "revision": "0a04d88af9876f20983e63719d02fd72",
     "url": "/Covid-Quiz/index.html"
   },
   {
-    "revision": "1717e436672599d930fc",
+    "revision": "25d954d3f694ca8769d6",
     "url": "/Covid-Quiz/static/css/main.ccf8c819.chunk.css"
   },
   {
-    "revision": "9a824b65c6a42dbbfb57",
-    "url": "/Covid-Quiz/static/js/2.0cb42c82.chunk.js"
+    "revision": "f570d25a1ea3bd2690d9",
+    "url": "/Covid-Quiz/static/js/2.ff18e783.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Covid-Quiz/static/js/2.0cb42c82.chunk.js.LICENSE.txt"
+    "url": "/Covid-Quiz/static/js/2.ff18e783.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1717e436672599d930fc",
-    "url": "/Covid-Quiz/static/js/main.c8d235af.chunk.js"
+    "revision": "25d954d3f694ca8769d6",
+    "url": "/Covid-Quiz/static/js/main.5832ba8b.chunk.js"
   },
   {
     "revision": "6bfb9c07732f5180bd31",
