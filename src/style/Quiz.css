@@ -1,0 +1,130 @@
+.Quiz {
+    position: relative;
+    top: 20vh;
+    margin: 0 50px;
+}
+
+.Quiz-end {
+    position: relative;
+    top: 10vh;
+    margin: 0 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px
+}
+
+span {
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+
+.selected {
+    background-color: #7647d1 !important;
+    color: white !important;
+}
+
+.options {
+    padding: 10px;
+    border: 1px solid #7647d1;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 100%;
+    background-color: white;
+    color: #7647d1;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px;
+}
+
+.btnFlex {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    position: relative;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s;
+    margin: 10px 20px 0 20px;
+}
+
+button:hover {
+    color: #7647d1;
+    background-color: white;
+}
+
+@media (min-width: 700px) and (orientation: portrait) {
+    .Quiz {
+        top: 20vh;
+        margin: 0 150px;
+    }
+
+    .Quiz-end {
+        top: 20vh;
+        margin: 0 150px;
+    }
+}
+
+@media (min-width: 600px) and (orientation: landscape) {
+    .Quiz {
+        top: 15vh;
+        margin: 0 auto;
+        width: 50vw;
+    }
+
+    .Quiz-end {
+        top: 10vh;
+        width: 50vw;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 1020px) and (orientation: landscape) {
+    .Quiz {
+        top: 20vh;
+    }
+
+    .Quiz-end {
+        top: 5vh;
+        width: 50vw;
+        margin: 0 auto;
+    }
+
+    h2 {
+        margin-bottom: 20px
+    }
+
+}

@@ -1,0 +1,36 @@
+.nav {
+    width: 100vw;
+    height: 8vh;
+    position: relative;
+    font-family: 'Montserrat';
+    z-index: 1;
+}
+
+.nav .covid-link {
+    position: absolute;
+    font-weight: bold;
+    left: 0;
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav .list {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    margin-right: 10%;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 7px;
+}
+
+.nav .nav-item {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
