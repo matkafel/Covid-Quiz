@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Covid-Quiz/static/css/main.2b591bc1.chunk.css",
-    "main.js": "/Covid-Quiz/static/js/main.c664c27d.chunk.js",
-    "main.js.map": "/Covid-Quiz/static/js/main.c664c27d.chunk.js.map",
+    "main.js": "/Covid-Quiz/static/js/main.83d9842b.chunk.js",
+    "main.js.map": "/Covid-Quiz/static/js/main.83d9842b.chunk.js.map",
     "runtime-main.js": "/Covid-Quiz/static/js/runtime-main.41bc60c0.js",
     "runtime-main.js.map": "/Covid-Quiz/static/js/runtime-main.41bc60c0.js.map",
     "static/js/2.264c9f9b.chunk.js": "/Covid-Quiz/static/js/2.264c9f9b.chunk.js",
     "static/js/2.264c9f9b.chunk.js.map": "/Covid-Quiz/static/js/2.264c9f9b.chunk.js.map",
     "index.html": "/Covid-Quiz/index.html",
-    "precache-manifest.fd41ab5917f3b8f016039aa059bfe656.js": "/Covid-Quiz/precache-manifest.fd41ab5917f3b8f016039aa059bfe656.js",
+    "precache-manifest.d2930e97a732b5f5ea6ee2aafda745da.js": "/Covid-Quiz/precache-manifest.d2930e97a732b5f5ea6ee2aafda745da.js",
     "service-worker.js": "/Covid-Quiz/service-worker.js",
     "static/css/main.2b591bc1.chunk.css.map": "/Covid-Quiz/static/css/main.2b591bc1.chunk.css.map",
     "static/js/2.264c9f9b.chunk.js.LICENSE.txt": "/Covid-Quiz/static/js/2.264c9f9b.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.41bc60c0.js",
     "static/js/2.264c9f9b.chunk.js",
     "static/css/main.2b591bc1.chunk.css",
-    "static/js/main.c664c27d.chunk.js"
+    "static/js/main.83d9842b.chunk.js"
   ]
 }
