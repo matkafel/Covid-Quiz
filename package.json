@@ -1,6 +1,6 @@
 {
   "name": "quiz",
-  "homepage": ".",
+  "homepage": "https://matkafel.github.io/Covid-Quiz/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
