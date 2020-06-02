@@ -1,7 +1,7 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import QuestionsList from "../db/QuestionsList";
 import Nav from "./Nav";
-import history from "./history";
 import "../style/Quiz.css";
 import "../style/style.css";
 
@@ -128,11 +128,11 @@ class Quiz extends Component {
                   contact to your doctor
                 </p>
               ) : (
-                <p>
-                  There is no reason to worry, but if you feel unwell go to your
-                  doctor
-                </p>
-              )}
+                  <p>
+                    There is no reason to worry, but if you feel unwell go to your
+                    doctor
+                  </p>
+                )}
             </h2>
             <span>All the questions you answered yes:</span>
             <ul>
@@ -141,9 +141,7 @@ class Quiz extends Component {
               ))}
             </ul>
             <form>
-              <button class="btnStart" onClick={() => history.push("/")}>
-                Exit
-              </button>
+              <Link to="/" className="btnStart">Exit</Link>
             </form>
           </div>
         </>
@@ -158,13 +156,13 @@ class Quiz extends Component {
             <h2>{question}</h2>
             <span>{`Question ${currIndex + 1} of ${
               QuestionsList.length
-            }`}</span>
+              }`}</span>
             {options.map((option) => (
               <p
                 key={option.id}
                 className={`options ${
                   userAnswer === option ? "selected" : null
-                }`}
+                  }`}
                 onClick={() => this.checkAnswer(option)}
               >
                 {option}

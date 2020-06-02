@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import history from './history';
+import { Link } from 'react-router-dom';
 import Nav from './Nav';
 import '../style/StartPage.css'
 
@@ -17,7 +17,7 @@ export default class Home extends Component {
 
                         </div>
                         <form>
-                            <button class="btnStart" onClick={() => history.push('/quiz')}>Start</button>
+                            <Link to="/quiz" className="btnStart">Start</Link>
                         </form>
                     </div>
                     <div className="picture"></div>

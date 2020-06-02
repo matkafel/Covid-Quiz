@@ -29,6 +29,7 @@
 }
 
 .btnStart {
+    position: absolute;
     padding: 15px 40px;
     border: none;
     border-radius: 5px;
@@ -39,9 +40,9 @@
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.2s;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    text-decoration: none;
 }
+
 
 .btnStart:hover {
     color: #7647d1;

@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
-import '../../style/Counter.css';
 import Nav from '../Nav';
+import '../../style/Counter.css';
 
 
 class Counter extends React.Component {
