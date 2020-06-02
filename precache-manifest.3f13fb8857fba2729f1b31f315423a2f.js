@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b96215db1ea58dc475760ad6791bb19",
+    "revision": "311e7e059bd3a94549476459ead4ca6c",
     "url": "/Covid-Quiz/index.html"
   },
   {
-    "revision": "c4638f35d95f9ee7a72c",
-    "url": "/Covid-Quiz/static/css/main.2b591bc1.chunk.css"
+    "revision": "8c6cb5f3b12281b42479",
+    "url": "/Covid-Quiz/static/css/main.a6eae759.chunk.css"
   },
   {
-    "revision": "57e85a6dffce286b0795",
-    "url": "/Covid-Quiz/static/js/2.b670a55e.chunk.js"
+    "revision": "c328eb2ddc79ef620e3a",
+    "url": "/Covid-Quiz/static/js/2.68239dc7.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Covid-Quiz/static/js/2.b670a55e.chunk.js.LICENSE.txt"
+    "url": "/Covid-Quiz/static/js/2.68239dc7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4638f35d95f9ee7a72c",
-    "url": "/Covid-Quiz/static/js/main.ccc49097.chunk.js"
+    "revision": "8c6cb5f3b12281b42479",
+    "url": "/Covid-Quiz/static/js/main.33fdcd2e.chunk.js"
   },
   {
     "revision": "6bfb9c07732f5180bd31",
