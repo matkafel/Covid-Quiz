@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Covid-Quiz/static/css/main.a6eae759.chunk.css",
-    "main.js": "/Covid-Quiz/static/js/main.33fdcd2e.chunk.js",
-    "main.js.map": "/Covid-Quiz/static/js/main.33fdcd2e.chunk.js.map",
+    "main.js": "/Covid-Quiz/static/js/main.0f26fa52.chunk.js",
+    "main.js.map": "/Covid-Quiz/static/js/main.0f26fa52.chunk.js.map",
     "runtime-main.js": "/Covid-Quiz/static/js/runtime-main.41bc60c0.js",
     "runtime-main.js.map": "/Covid-Quiz/static/js/runtime-main.41bc60c0.js.map",
-    "static/js/2.68239dc7.chunk.js": "/Covid-Quiz/static/js/2.68239dc7.chunk.js",
-    "static/js/2.68239dc7.chunk.js.map": "/Covid-Quiz/static/js/2.68239dc7.chunk.js.map",
+    "static/js/2.c2998e56.chunk.js": "/Covid-Quiz/static/js/2.c2998e56.chunk.js",
+    "static/js/2.c2998e56.chunk.js.map": "/Covid-Quiz/static/js/2.c2998e56.chunk.js.map",
     "index.html": "/Covid-Quiz/index.html",
-    "precache-manifest.3f13fb8857fba2729f1b31f315423a2f.js": "/Covid-Quiz/precache-manifest.3f13fb8857fba2729f1b31f315423a2f.js",
+    "precache-manifest.ea65952b5aee0ca6f6323a35c721593d.js": "/Covid-Quiz/precache-manifest.ea65952b5aee0ca6f6323a35c721593d.js",
     "service-worker.js": "/Covid-Quiz/service-worker.js",
     "static/css/main.a6eae759.chunk.css.map": "/Covid-Quiz/static/css/main.a6eae759.chunk.css.map",
-    "static/js/2.68239dc7.chunk.js.LICENSE.txt": "/Covid-Quiz/static/js/2.68239dc7.chunk.js.LICENSE.txt",
+    "static/js/2.c2998e56.chunk.js.LICENSE.txt": "/Covid-Quiz/static/js/2.c2998e56.chunk.js.LICENSE.txt",
     "static/media/Counter.css": "/Covid-Quiz/static/media/bg.cae0fb0b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.41bc60c0.js",
-    "static/js/2.68239dc7.chunk.js",
+    "static/js/2.c2998e56.chunk.js",
     "static/css/main.a6eae759.chunk.css",
-    "static/js/main.33fdcd2e.chunk.js"
+    "static/js/main.0f26fa52.chunk.js"
   ]
 }
