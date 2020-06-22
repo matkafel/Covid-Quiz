@@ -1,0 +1,1369 @@
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  width: 100vw;
+}
+
+.about-text {
+  text-align: justify;
+  margin: 30px;
+}
+
+.about-text p {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: #6373ff;
+}
+
+.about-text h1 {
+  text-transform: uppercase;
+  color: white;
+}
+
+.about-text .firstParagraf,
+.about-text .secondParagraf,
+.about-text .thirdParagraf {
+  margin-top: 12px;
+  text-transform: lowercase;
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+.about-img {
+  background-image: url("../assets/about.png");
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: -430px auto;
+  z-index: -1;
+  opacity: 0.3;
+  animation: spin 40s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* SECOND PAGE */
+
+.about-wrapper2 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../assets/shape2.png");
+  background-color: #912ebf;
+  box-shadow: 50px 50px 300px 100px rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+
+.flex-wrapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.about-text-second {
+  margin: 30px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.about-text-second p {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #6373ff;
+}
+
+.about-text-second h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  color: white;
+}
+
+.header-effect {
+  font-size: 35px;
+  font-weight: 900;
+  color: #efe0f5;
+  text-shadow: -0.0075em 0.0075em 0 #fef2f6, 0.005em 0.005em 0 #f6a5c1,
+    0.01em 0.01em 0 #f7aac4, 0.015em 0.015em #f7aec7, 0.02em 0.02em 0 #f8b3ca,
+    0.025em 0.025em 0 #f8b7cd, 0.03em 0.03em 0 #f8bcd0,
+    0.035em 0.035em 0 #f9c0d3;
+}
+
+.about-text-second .txt {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+  text-transform: lowercase;
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+.symptoms-wrapper .first .symptoms-img1 {
+  display: none;
+}
+
+.symptoms-wrapper .first .symptoms-img2 {
+  display: none;
+}
+
+.symptoms-wrapper .first .symptoms-img3 {
+  display: none;
+}
+
+.symptoms-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: -25px 30px;
+}
+
+.symptoms-wrapper p {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 15px;
+  color: #6373ff;
+}
+
+.symptoms-wrapper .symptoms-text {
+  font-weight: normal;
+  text-align: justify;
+  margin-top: 0;
+  color: whitesmoke;
+}
+
+.Link {
+  position: relative;
+  font-size: 1rem;
+  max-width: 25em;
+  padding: 5px 20px;
+  transform: translateZ(0);
+  filter: drop-shadow(0 1em 1em rgba(0, 0, 0, 0.16));
+  cursor: pointer;
+}
+
+.Link::before,
+.Link::after {
+  border-radius: 3px;
+  content: " ";
+  display: block;
+  position: absolute;
+  transform-origin: right;
+  transition: transform 500ms;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #aa38df;
+}
+
+.Link::after {
+  transform: scaleX(0);
+  transition-duration: 450ms;
+  background-color: #611f80;
+}
+
+.Link-title {
+  background-image: linear-gradient(0deg, #ddd, #000),
+    linear-gradient(0deg, #fff, #fff);
+  background-size: 0 2px, 0 100%;
+  background-position: 8px calc(1em + 8px), 0 0;
+  background-repeat: no-repeat;
+  box-decoration-break: clone;
+  display: inline;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 6px 8px;
+  margin-left: -8px;
+  pointer-events: none;
+  line-height: 1.75;
+  text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff;
+  transition: background ease-out 500ms;
+}
+
+.Link:hover::before {
+  transform: scaleX(0);
+  transition-duration: 450ms;
+  transition-timing-function: ease-in-out;
+}
+
+.Link:hover::after {
+  transform: scaleX(1);
+  transition-duration: 700ms;
+  transition-timing-function: ease-in-out;
+  transform-origin: left;
+}
+
+/* THIRD PAGE */
+.about-wrapper3 {
+  position: relative;
+  background-image: url("../assets/shape.png");
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #c23dff;
+}
+
+.about-wrapper3 .loader {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  transform-style: preserve-3d;
+  transform: perspective(500px) rotateX(60deg);
+  margin: 0 auto;
+  top: 15%;
+  left: 10%;
+}
+
+.about-wrapper3 .loader span {
+  position: absolute;
+  display: block;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 50%;
+  transform: translateZ(-100px);
+  animation: animate 3s ease-in-out infinite;
+  opacity: 0.4;
+}
+
+@keyframes animate {
+
+  0%,
+  100% {
+    transform: translateZ(-100px);
+  }
+
+  50% {
+    transform: translateZ(100px);
+  }
+}
+
+.about-wrapper3 .loader span:nth-child(1) {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  animation-delay: 1.4s;
+}
+
+.about-wrapper3 .loader span:nth-child(2) {
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  animation-delay: 1.3s;
+}
+
+.about-wrapper3 .loader span:nth-child(3) {
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  animation-delay: 1.2s;
+}
+
+.about-wrapper3 .loader span:nth-child(4) {
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  animation-delay: 1.1s;
+}
+
+.about-wrapper3 .loader span:nth-child(5) {
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  animation-delay: 1s;
+}
+
+.about-wrapper3 .loader span:nth-child(6) {
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
+  animation-delay: 0.9s;
+}
+
+.about-wrapper3 .loader span:nth-child(7) {
+  top: 60px;
+  left: 60px;
+  right: 60px;
+  bottom: 60px;
+  animation-delay: 0.8s;
+}
+
+.about-wrapper3 .loader span:nth-child(8) {
+  top: 70px;
+  left: 70px;
+  right: 70px;
+  bottom: 70px;
+  animation-delay: 0.7s;
+}
+
+.about-wrapper3 .loader span:nth-child(9) {
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
+  animation-delay: 0.6s;
+}
+
+.about-wrapper3 .loader span:nth-child(10) {
+  top: 90px;
+  left: 90px;
+  right: 90px;
+  bottom: 90px;
+  animation-delay: 0.5s;
+}
+
+.about-wrapper3 .loader span:nth-child(11) {
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
+  animation-delay: 0.4s;
+}
+
+.about-wrapper3 .loader span:nth-child(12) {
+  top: 110px;
+  left: 110px;
+  right: 110px;
+  bottom: 110px;
+  animation-delay: 0.3s;
+}
+
+.about-wrapper3 .loader span:nth-child(13) {
+  top: 120px;
+  left: 120px;
+  right: 120px;
+  bottom: 120px;
+  animation-delay: 0.2s;
+}
+
+.about-wrapper3 .loader span:nth-child(14) {
+  top: 130px;
+  left: 130px;
+  right: 130px;
+  bottom: 130px;
+  animation-delay: 0.1s;
+}
+
+.about-wrapper3 .loader span:nth-child(15) {
+  top: 140px;
+  left: 140px;
+  right: 140px;
+  bottom: 140px;
+  animation-delay: 0s;
+}
+
+.about-wrapper3 .split-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.split-page h2 {
+  font-size: 20px;
+  font-weight: 300;
+  color: whitesmoke;
+}
+
+.split-page h2 span {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.icons {
+  margin: 0 30px;
+}
+
+.icons h4 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.icons .fas {
+  margin-right: 5px;
+  color: rgb(22, 207, 22);
+}
+
+.icons span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.about-wrapper3 .left {
+  margin-top: 20px;
+}
+
+.about-wrapper3 .right .right-img {
+  position: absolute;
+  background-image: url("../assets/steps.png");
+  width: 200px;
+  height: 300px;
+  margin-top: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* FOURTH PAGE */
+.about-wrapper4 {
+  position: relative;
+  background-image: url("../assets/shape2.png");
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #872bb2;
+}
+
+.about-wrapper4 .header-txt {
+  margin: 30px;
+  text-align: center;
+}
+
+.header-txt p {
+  font-size: 15px;
+  color: #6373ff;
+}
+
+.header-txt h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.header-txt p:nth-child(3) {
+  color: whitesmoke;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 30px;
+}
+
+.card {
+  margin-bottom: 15px;
+  background-color: #a24aca;
+  border: 1px solid #fff;
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+}
+
+.card:hover {
+  background-color: white;
+  border: 1px solid #6373ff;
+  color: #a24aca;
+}
+
+.card h5 {
+  font-size: 15px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 10px;
+  text-align: justify;
+}
+
+@media (min-width: 400px) and (orientation: portrait) {
+  .about-text p {
+    font-size: 16px;
+  }
+
+  .about-text h1 {
+    font-size: 40px;
+  }
+
+  .about-text .firstParagraf,
+  .about-text .secondParagraf,
+  .about-text .thirdParagraf {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .about-img {
+    margin: -430px auto;
+  }
+
+  /* SECOND PAGE */
+
+  .about-text-second .txt {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .symptoms-wrapper .first .symptoms-img1 {
+    display: block;
+    background-image: url("../assets/symptom-a.png");
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    border-radius: 50%;
+  }
+
+  .symptoms-wrapper .first .symptoms-img2 {
+    display: block;
+    background-image: url("../assets/symptom-b.png");
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    border-radius: 50%;
+  }
+
+  .symptoms-wrapper .first .symptoms-img3 {
+    display: block;
+    background-image: url("../assets/symptom-c.png");
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    border-radius: 50%;
+  }
+
+  .symptoms-wrapper p {
+    font-size: 20px;
+    margin-top: 35px;
+  }
+
+  .symptoms-wrapper .symptoms-text {
+    font-size: 13px;
+  }
+
+  /*THIRD PAGE */
+
+  .split-page h2 {
+    font-size: 22px;
+  }
+
+  .icons {
+    margin: 0 50px;
+  }
+
+  .icons h4 {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .icons .fas {
+    margin-right: 10px;
+  }
+
+  .icons span {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .about-wrapper3 .left {
+    margin-top: 40px;
+  }
+
+  .about-wrapper3 .right .right-img {
+    position: absolute;
+    background-image: url("../assets/steps.png");
+    width: 200px;
+    height: 300px;
+    margin-top: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* FOURTH PAGE */
+
+  .card-wrapper {
+    margin: 20px 40px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+}
+
+@media (min-width: 700px) and (orientation: portrait) {
+  .about-text {
+    margin: 120px 70px 0 70px;
+  }
+
+  .about-text p {
+    font-size: 25px;
+  }
+
+  .about-text h1 {
+    font-size: 60px;
+  }
+
+  .about-text span {
+    font-size: 25px;
+  }
+
+  .about-text .firstParagraf,
+  .about-text .secondParagraf,
+  .about-text .thirdParagraf {
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+
+  .about-img {
+    width: 500px;
+    height: 500px;
+    margin: -430px auto;
+  }
+
+  /*SECOND PAGE */
+
+  .about-text-second {
+    padding-top: 0px;
+    margin: 70px;
+  }
+
+  .about-text-second p {
+    font-size: 20px;
+  }
+
+  .about-text-second h1 {
+    font-size: 60px;
+    font-weight: 300;
+  }
+
+  x .header-effect {
+    font-size: 65px;
+  }
+
+  .about-text-second .txt {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .symptoms-wrapper {
+    margin: -55px 180px;
+  }
+
+  .first {
+    margin: 0 auto;
+  }
+
+  .symptoms-wrapper .first .symptoms-img1 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .symptoms-wrapper .first .symptoms-img2 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .symptoms-wrapper .first .symptoms-img3 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .symptoms-wrapper p {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  .symptoms-wrapper .symptoms-text {
+    font-size: 16px;
+  }
+
+  .Link {
+    max-width: 25em;
+    font-size: 1rem;
+    padding: 5px 20px;
+    filter: drop-shadow(0 1em 1em rgba(0, 0, 0, 0.16));
+  }
+
+  /*THIRD PAGE */
+
+  .split-page h2 {
+    font-size: 35px;
+  }
+
+  .split-page h2 span {
+    font-size: 32px;
+  }
+
+  .icons {
+    margin: 0 80px;
+  }
+
+  .icons h4 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .icons .fas {
+    margin-right: 15px;
+  }
+
+  .icons span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .about-wrapper3 .left {
+    margin-top: 60px;
+  }
+
+  .about-wrapper3 .loader {
+    width: 350px;
+    height: 350px;
+    top: 20%;
+    left: 30%;
+  }
+
+  .about-wrapper3 .right .right-img {
+    position: absolute;
+    background-image: url("../assets/steps.png");
+    width: 300px;
+    height: 400px;
+    margin-top: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* FOURTH PAGE */
+
+  .about-wrapper4 .header-txt {
+    margin: 50px 70px;
+  }
+
+  .header-txt p {
+    font-size: 17px;
+  }
+
+  .header-txt h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .card-wrapper {
+    margin: 60px 150px;
+  }
+
+  .card {
+    margin-bottom: 50px;
+    padding: 20px 40px;
+    background-color: #a24aca;
+  }
+
+  .card h5 {
+    font-size: 20px;
+    margin: 10px 10px;
+  }
+
+  .card p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 640px) and (orientation: landscape) {
+  .about-text {
+    text-align: justify;
+    margin: 60px 50px 0 50px;
+  }
+
+  .about-text p {
+    font-size: 12px;
+  }
+
+  .about-text h1 {
+    font-size: 20px;
+  }
+
+  .about-text .firstParagraf,
+  .about-text .secondParagraf,
+  .about-text .thirdParagraf {
+    font-size: 12x;
+    line-height: 15px;
+  }
+
+  .about-img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    top: 10%;
+    left: 25%;
+  }
+
+  /*SECOND PAGE */
+
+  .about-text-second {
+    padding-top: 0px;
+    margin: 30px 50px;
+  }
+
+  .about-text-second h1 {
+    font-size: 30px;
+  }
+
+  .header-effect {
+    font-size: 30px;
+  }
+
+  .first {
+    margin: 0 10px;
+  }
+
+  .symptoms-wrapper {
+    flex-direction: row;
+    margin: -40px 30px;
+  }
+
+  .symptoms-wrapper p {
+    font-size: 15px;
+  }
+
+  .symptoms-wrapper .symptoms-text {
+    font-size: 12px;
+    margin-top: 0;
+    font-weight: normal;
+    text-align: justify;
+    color: whitesmoke;
+  }
+
+  .Link {
+    height: 160px;
+    padding: 8px 20px;
+  }
+
+  /*THIRD PAGE*/
+  .about-wrapper3 .loader {
+    width: 280px;
+    height: 280px;
+    top: 10%;
+    left: 25%;
+  }
+
+  .about-wrapper3 .right .right-img {
+    width: 100px;
+    height: 200px;
+    margin-top: 5px;
+  }
+
+  /* FOURTH PAGE */
+
+  .card-wrapper {
+    flex-direction: row;
+    margin: 10px 30px;
+  }
+
+  .card {
+    margin: 0 10px;
+    padding: 5px;
+  }
+
+  .card h5 {
+    font-size: 12px;
+  }
+
+  .card p {
+    font-size: 11px;
+    line-height: 15px;
+  }
+}
+
+@media (min-width: 730px) and (orientation: landscape) {
+  .about-text {
+    text-align: justify;
+    margin: 50px 50px 0 50px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+
+  .about-text h1 {
+    font-size: 30px;
+  }
+
+  .about-text .firstParagraf,
+  .about-text .secondParagraf,
+  .about-text .thirdParagraf {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .about-img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    top: 10%;
+    left: 30%;
+  }
+
+  /*THIRD PAGE*/
+  .about-wrapper3 .loader {
+    width: 280px;
+    height: 280px;
+    top: 10%;
+    left: 30%;
+  }
+
+  .about-wrapper3 .right .right-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+  }
+
+  /* FOURTH PAGE */
+
+  .about-wrapper4 .header-txt {
+    margin: 30px 50px;
+  }
+
+  .header-txt p {
+    font-size: 17px;
+  }
+
+  .header-txt h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+
+  .card-wrapper {
+    margin: 10px 40px;
+  }
+
+  .card {
+    margin: 20px 10px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .about-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+
+  .about-text {
+    width: 40%;
+    margin: 70px 50px 0 50px;
+    text-align: justify;
+  }
+
+  .about-text p {
+    font-size: 20px;
+  }
+
+  .about-text h1 {
+    font-size: 40px;
+  }
+
+  .about-text .firstParagraf,
+  .about-text .secondParagraf,
+  .about-text .thirdParagraf {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .about-text span {
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+
+  .about-img {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    top: 20%;
+    right: -13%;
+    opacity: 1;
+  }
+
+  /* SECOND PAGE */
+
+  .about-text-second {
+    padding-top: 0px;
+    margin: 50px;
+  }
+
+  .about-text-second p {
+    font-size: 18px;
+  }
+
+  .about-text-second h1 {
+    font-size: 40px;
+  }
+
+  .header-effect {
+    font-size: 40px;
+  }
+
+  .first {
+    margin: 0 10px;
+  }
+
+  .about-text-second .txt {
+    font-size: 22px;
+    margin-top: 30px;
+    line-height: 35px;
+  }
+
+  .symptoms-wrapper .first .symptoms-img1 {
+    background-image: url("../assets/symptom-a.png");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    border-radius: 50%;
+    display: block;
+  }
+
+  .symptoms-wrapper .first .symptoms-img2 {
+    background-image: url("../assets/symptom-b.png");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    border-radius: 50%;
+    display: block;
+  }
+
+  .symptoms-wrapper .first .symptoms-img3 {
+    background-image: url("../assets/symptom-c.png");
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    border-radius: 50%;
+    display: block;
+  }
+
+  .symptoms-wrapper {
+    flex-direction: row;
+    margin: 100px 30px;
+  }
+
+  .symptoms-wrapper p {
+    font-size: 18px;
+  }
+
+  .symptoms-wrapper .symptoms-text {
+    margin-top: 0;
+    font-size: 17px;
+  }
+
+  .Link {
+    height: 160px;
+    padding: 10px 20px;
+  }
+
+  /* THIRD PAGE */
+
+  .about-wrapper3 .loader {
+    width: 300px;
+    height: 300px;
+    top: 30%;
+    left: 15%;
+  }
+
+  .about-wrapper3 .split-page {
+    flex-direction: row;
+  }
+
+  .split-page h2 span {
+    font-size: 28px;
+  }
+
+  .icons {
+    margin: 40px 70px;
+  }
+
+  .icons h4 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 15px;
+    color: whitesmoke;
+  }
+
+  .icons .fas {
+    margin-right: 22px;
+    margin-left: -40px;
+  }
+
+  .icons span {
+    font-size: 15px;
+  }
+
+  .about-wrapper3 .left {
+    width: 60%;
+    margin-top: 60px;
+  }
+
+  .about-wrapper3 .right .right-img {
+    width: 450px;
+    height: 450px;
+    margin-top: 15px;
+    left: 85%;
+    top: 15%;
+    transform: translate(-50%);
+  }
+
+  /* FOURTH PAGE */
+
+  .about-wrapper4 .header-txt {
+    margin: 50px 80px;
+  }
+
+  .header-txt p {
+    font-size: 20px;
+  }
+
+  .header-txt h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .header-txt p:nth-child(3) {
+    font-size: 25px;
+    margin: 0 80px;
+    color: whitesmoke;
+  }
+
+  .card-wrapper {
+    margin: 100px 50px;
+  }
+
+  .card {
+    margin: 20px 10px;
+    padding: 15px 20px;
+  }
+
+  .card-img1 {
+    background: url("../assets/spread-a.png");
+    width: 200px;
+    height: 130px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .card-img2 {
+    background: url("../assets/spread-b.png");
+    width: 200px;
+    height: 130px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .card-img3 {
+    background: url("../assets/spread-c.png");
+    width: 200px;
+    height: 130px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .card h5 {
+    font-size: 15px;
+  }
+
+  .card p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
+  .about-img {
+    top: 20%;
+  }
+}
+
+@media (min-width: 1410px) and (orientation: landscape) {
+  .about-text {
+    margin: 70px 50px 0 60px;
+  }
+
+  .about-text h1 {
+    font-size: 50px;
+  }
+
+  .about-text .firstParagraf,
+  .about-text .secondParagraf,
+  .about-text .thirdParagraf {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 40px;
+  }
+
+  .about-text .firstParagraf {
+    margin-top: 20px;
+  }
+
+  .about-text span {
+    font-size: 20px;
+  }
+
+  .about-img {
+    width: 500px;
+    height: 500px;
+    top: 15%;
+  }
+
+  /* Second Page */
+
+  .about-text-second {
+    padding-top: 0px;
+    margin: 80px 200px;
+  }
+
+  .about-text-second p {
+    font-size: 18px;
+  }
+
+  .about-text-second h1 {
+    font-size: 45px;
+  }
+
+  .header-effect {
+    font-size: 45px;
+  }
+
+  .first {
+    margin: 0 auto;
+  }
+
+  .about-text-second .txt {
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .symptoms-wrapper .first .symptoms-img1 {
+    width: 130px;
+    height: 130px;
+  }
+
+  .symptoms-wrapper .first .symptoms-img2 {
+    width: 130px;
+    height: 130px;
+  }
+
+  .symptoms-wrapper .first .symptoms-img3 {
+    width: 130px;
+    height: 130px;
+  }
+
+  .symptoms-wrapper {
+    margin: 100px 80px;
+  }
+
+  .symptoms-wrapper p {
+    font-size: 20px;
+  }
+
+  .Link {
+    height: 160px;
+    padding: 20px 30px;
+  }
+
+  /* THIRD PAGE */
+
+  .about-wrapper3 .loader {
+    width: 350px;
+    height: 350px;
+    top: 30%;
+    left: 15%;
+  }
+
+  .split-page h2 {
+    font-size: 40px;
+  }
+
+  .split-page h2 span {
+    font-size: 40px;
+  }
+
+  .icons {
+    margin: 40px 90px;
+  }
+
+  .icons h4 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .icons span {
+    font-size: 20px;
+  }
+
+  .about-wrapper3 .left {
+    margin-top: 80px;
+  }
+
+  .about-wrapper3 .right .right-img {
+    width: 550px;
+    height: 550px;
+    margin-top: 15px;
+    left: 85%;
+    top: 10%;
+    transform: translate(-50%);
+  }
+
+  /* FOURTH PAGE */
+
+  .about-wrapper4 .header-txt {
+    margin: 50px 100px;
+  }
+
+  .header-txt p {
+    font-size: 23px;
+  }
+
+  .header-txt h1 {
+    margin-bottom: 25px;
+  }
+
+  .header-txt p:nth-child(3) {
+    margin: 0 200px;
+    font-size: 25px;
+  }
+
+  .card-wrapper {
+    margin: 100px 100px;
+  }
+
+  .card {
+    margin: 20px 30px;
+    padding: 30px 20px;
+  }
+
+  .card h5 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .card p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}

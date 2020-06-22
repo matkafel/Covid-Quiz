@@ -7,10 +7,12 @@
 
 
 body {
+    position: relative;
     width: 100vw;
     height: 100vh;
-    position: relative;
     left: 0;
     bottom: 0;
+    background-image: url('../assets/shape.png');
     background-color: #872bb2;
+    overflow-x: hidden;
 }

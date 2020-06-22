@@ -1,8 +1,8 @@
 .wrapper {
   position: relative;
-  width: 100vw;
   display: flex;
   flex-direction: column;
+  width: 100vw;
   height: 92vh;
   overflow: hidden;
 }
@@ -13,8 +13,8 @@
 }
 
 .Home .text {
-  text-align: center;
   margin: 0 20px;
+  text-align: center;
   color: white;
 }
 
@@ -44,8 +44,8 @@
 }
 
 .btnStart:hover {
-  color: #7647d1;
   background-color: white;
+  color: #7647d1;
 }
 
 .main-wrapper .picture {
@@ -86,10 +86,10 @@
 }
 
 .container .box {
-  border: 1px solid white;
-  padding: 20px 30px;
   margin: 10px 0 30px;
+  padding: 20px 30px;
   text-transform: uppercase;
+  border: 1px solid white;
   background-color: rgba(255, 255, 255, 0.3)
 }
 
@@ -160,10 +160,10 @@ h4 {
   }
 
   .container .box {
-    border: 1px solid white;
-    padding: 20px 30px;
-    margin: 10px 20px 30px;
     width: 25vw;
+    margin: 10px 20px 30px;
+    padding: 20px 30px;
+    border: 1px solid white;
   }
 
 
@@ -174,18 +174,18 @@ h4 {
   }
 
   .btnStart:hover {
-    color: white;
     background-color: #6373ff;
+    color: white;
   }
 }
 
 @media (min-width: 1024px) and (orientation: landscape) {
   .wrapper {
+    flex-direction: row;
     background-image: url("../assets/bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    flex-direction: row;
   }
 
   .Home {
@@ -196,8 +196,8 @@ h4 {
   }
 
   .Home .text h1 {
-    color: #872bb2;
     font-size: 50px;
+    color: #872bb2;
   }
 
   .Home .text p {
@@ -232,10 +232,10 @@ h4 {
   }
 
   .container .box {
-    border: 1px solid #872bb2;
-    padding: 20px 20px;
-    margin: 10px 15px 30px;
     width: 12vw;
+    margin: 10px 15px 30px;
+    padding: 20px 20px;
+    border: 1px solid #872bb2;
   }
 
   h4 {
@@ -244,16 +244,16 @@ h4 {
   }
 
   .container h2 {
-    color: #872bb2;
     font-size: 3rem;
+    color: #872bb2;
   }
 
   .main-wrapper .picture {
     display: block;
     position: absolute;
-    margin-top: 15%;
     width: 50%;
     height: 100vh;
+    margin-top: 15%;
     background-size: contain;
   }
 

@@ -1,8 +1,8 @@
 .wrapper {
     position: relative;
-    width: 100vw;
     display: flex;
     flex-direction: column;
+    width: 100vw;
     height: 92vh;
     overflow: hidden;
 }
@@ -51,8 +51,8 @@
 
 .picture {
     position: absolute;
-    margin-top: 250px;
     background-image: url('../assets/1.svg');
+    margin-top: 250px;
     width: 100vw;
     height: 40vh;
     margin-top: 120%;
@@ -69,10 +69,10 @@
     }
 
     .picture {
-        background-repeat: no-repeat;
-        background-size: cover;
         height: 43vh;
         margin-top: 70%;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
@@ -94,32 +94,31 @@
 
     .picture {
         position: absolute;
-        margin-top: 40px;
         width: 50%;
         height: 100vh;
+        margin-top: 40px;
     }
 
     .btnStart {
-        border: 1px solid #6373ff;
         background-color: white;
+        border: 1px solid #6373ff;
         color: #6373ff;
-
     }
 
     .btnStart:hover {
-        color: white;
         background-color: #6373ff;
+        color: white;
     }
 }
 
 @media (min-width: 1024px) and (orientation: landscape) {
 
     .wrapper {
+        flex-direction: row;
         background-image: url('../assets/bg.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        flex-direction: row;
     }
 
     .Home {
@@ -130,22 +129,23 @@
     }
 
     .Home .text h1 {
-        color: #872bb2;
         font-size: 50px;
+        color: #872bb2;
     }
 
     .Home .text p {
-        color: #872bb2;
         font-size: 25px;
         margin-bottom: 15px;
+        color: #872bb2;
     }
 
     .picture {
         position: absolute;
-        margin-top: 15%;
-        width: 50%;
-        background-size: contain;
         height: 100vh;
+        width: 50%;
+        margin-top: 15%;
+        background-size: contain;
+
     }
 
 }
